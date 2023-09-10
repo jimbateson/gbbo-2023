@@ -1,0 +1,45 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Bakers from '../components/Bakers.astro';
+---
+
+<Layout title='GBBO 2022'>
+	<header>
+		<div class='wrapper'>
+			<hgroup
+				class='flow-vertical'
+				role='group'
+				aria-roledescription='Heading group'
+			>
+				<h1>GBBO 2023</h1>
+				<p aria-roledescription='subtitle'>
+					Keep track of the bakers, find out more about them, who won
+					star baker, and the theme for each week.<br />Mary Berry ✊.
+				</p>
+			</hgroup>
+
+			<h2>Week one: Mark Sharp</h2>
+		</div>
+	</header>
+
+	<main>
+		<div class='wrapper wrapper--large'>
+			<Bakers />
+		</div>
+	</main>
+
+	<footer>
+		<p>
+			Something pointless from <a
+				href='https://jamesbateson.co.uk/'
+				rel='noreferrer'>James Bateson</a
+			>.
+		</p>
+		<p>
+			All assets and copy from <a
+				href='https://thegreatbritishbakeoff.co.uk/'
+				rel='noreferrer'>the official Great British Bake Off site</a
+			>. Please don't sue my soggy bottom.
+		</p>
+	</footer>
+</Layout>

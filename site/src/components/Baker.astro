@@ -1,0 +1,65 @@
+---
+const { baker } = Astro.props;
+---
+
+<div class='image-wrap'>
+	<img
+		src={`/assets/${baker.bakerImage}.webp`}
+		class='bakers-item__image'
+		alt=''
+		loading='lazy'
+		width='385'
+		height='385'
+	/>
+</div>
+
+<div class='bakers-item__content'>
+	<h3>
+		{baker.bakerName}, {baker.bakerAge}
+	</h3>
+	<h4>{baker.bakerJob}</h4>
+
+	<p>{baker.bakerInfo}</p>
+
+	<dl class='bakers-item__stats'>
+		<div>
+			<dt>Star Baker</dt>
+			<dd>
+				<span>
+					<svg
+						xmlns='http://www.w3.org/2000/svg'
+						width='15'
+						height='15'
+						viewBox='0 0 15 15'
+						aria-hidden='true'
+					>
+						<path
+							d='M7.5 11.25l-4.408 2.318.842-4.91L.367 5.183l4.929-.716L7.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909z'
+						></path>
+					</svg>
+				</span>
+				{baker.starBaker}
+			</dd>
+		</div>
+
+		<div>
+			<dt>Innuendos</dt>
+			<dd>
+				<span>
+					<span aria-hidden='true'>🍆</span>
+				</span>
+				{baker.bakerInnuendo}
+			</dd>
+		</div>
+
+		<div>
+			<dt>Hollywood Handshake</dt>
+			<dd>
+				<span>
+					<img src='/assets/phollywood.png' alt='' />
+				</span>
+				{baker.hollywoodHandshake}
+			</dd>
+		</div>
+	</dl>
+</div>
