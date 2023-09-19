@@ -14,9 +14,11 @@ import Baker from './Baker.astro';
 						src={`/assets/${baker.bakerImage}.webp`}
 						class='bakers-item__image'
 						alt=''
-						loading='lazy'
-						width='385'
-						height='385'
+						loading={`${
+							baker.bakerName === 'Abbi' ? 'eager' : 'lazy'
+						}`}
+						width='450'
+						height='450'
 					/>
 				</div>
 
