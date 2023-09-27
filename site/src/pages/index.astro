@@ -1,11 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Bakers from '../components/Bakers.astro';
+
+import '../styles/reset.css';
+import '../styles/main.css';
 ---
 
 <Layout title='GBBO 2023'>
 	<header>
-		<div class='wrapper'>
+		<div class='wrapper stack'>
 			<hgroup
 				class='flow-vertical'
 				role='group'
@@ -23,23 +26,25 @@ import Bakers from '../components/Bakers.astro';
 	</header>
 
 	<main>
-		<div class='wrapper wrapper--large'>
+		<div class='wrapper stack'>
 			<Bakers />
 		</div>
 	</main>
 
 	<footer>
-		<p>
-			Something pointless from <a
-				href='https://jamesbateson.co.uk/'
-				rel='noreferrer'>James Bateson</a
-			>.
-		</p>
-		<p>
-			All assets and copy from <a
-				href='https://thegreatbritishbakeoff.co.uk/'
-				rel='noreferrer'>the official Great British Bake Off site</a
-			>. Please don't sue my soggy bottom.
-		</p>
+		<div class='wrapper'>
+			<p>
+				Something pointless from <a
+					href='https://jamesbateson.co.uk/'
+					rel='noreferrer'>James Bateson</a
+				>.
+			</p>
+			<p>
+				All assets and copy from <a
+					href='https://thegreatbritishbakeoff.co.uk/'
+					rel='noreferrer'>the official Great British Bake Off site</a
+				>. Please don't sue my soggy bottom.
+			</p>
+		</div>
 	</footer>
 </Layout>

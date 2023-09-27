@@ -1,0 +1,16 @@
+:root {
+	--space: 1.5rem;
+}
+
+body {
+	padding: var(--space);
+}
+
+.wrapper {
+	margin-inline: auto;
+	max-width: 85ch;
+}
+
+.stack > * + * {
+	margin-block-start: var(--space);
+}
