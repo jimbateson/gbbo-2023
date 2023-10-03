@@ -5,7 +5,7 @@
 		"bakerJob": "Veg grower and delivery driver",
 		"bakerImage": "abbi",
 		"bakerClass": "",
-		"bakerInnuendo": "0",
+		"bakerInnuendo": "1",
 		"starBaker": "0",
 		"hollywoodHandshake": "0",
 		"bakerInfo": "Yorkshire-born Abbi first learned to bake alongside her mum, honing those early skills during her teens, when she became enthralled by the Victorian era and especially the traditional bakes of the time – steamed puddings, fruit cakes and more. Now she takes her inspiration from her environment and the beautiful English countryside around her home. A lover of the great outdoors, she forages for seasonal ingredients – the bigger and bolder, the better – and puts her homegrown veg to good use. Abbi’s bakes aim to combine comfort and familiarity with a strong nod towards nature, and a feeling of creating something magical – bakes with a touch of fairytale!"
@@ -62,7 +62,7 @@
 		"bakerClass": "",
 		"bakerInnuendo": "0",
 		"starBaker": "0",
-		"hollywoodHandshake": "0",
+		"hollywoodHandshake": "1",
 		"bakerInfo": "Josh is a chemist by trade and brings his scientist’s precision and keenness to experiment into the kitchen, taking careful notes on each part of the baking process and perfecting all his techniques for gorgeous results. He likes to take his inspiration from old baking books, reinventing classics to give them a modern twist, often by introducing alternative flavours and including the seasonal fruit and vegetables from his kitchen garden. Josh has been playing rugby for his local team for more than 15 years, and once a month he bakes lots of treats to reward his teammates after a rigorous training session. He dreams of having his own artisan bakery one day."
 	},
 	{
@@ -70,7 +70,7 @@
 		"bakerAge": "60",
 		"bakerJob": "Chartered accountant",
 		"bakerImage": "keith",
-		"bakerClass": "",
+		"bakerClass": "baker--exited",
 		"bakerInnuendo": "0",
 		"starBaker": "0",
 		"hollywoodHandshake": "0",
@@ -95,7 +95,7 @@
 		"bakerClass": "",
 		"bakerInnuendo": "1",
 		"starBaker": "0",
-		"hollywoodHandshake": "0",
+		"hollywoodHandshake": "1",
 		"bakerInfo": "Nicky describes her baking as ‘like a pair of comfy old slippers; little traditional bakes that evoke fond memories’. For Nicky herself, those memories are of her Gran’s kitchen table where, as a little girl, she would roll out pastries and decorate cakes – which she says was as much fun then as all her baking is to her now. Her favourite bakes are still pastries, but she also loves making breads, and fun birthday cakes for her niece and grandchildren. When she’s not baking, Nicky volunteers for a pet-therapy charity (along with her dog, Bracken) and loves to ski, which she has been doing since she was only three years old."
 	},
 	{
@@ -104,7 +104,7 @@
 		"bakerJob": "Bloody student",
 		"bakerImage": "rowan",
 		"bakerClass": "",
-		"bakerInnuendo": "0",
+		"bakerInnuendo": "1",
 		"starBaker": "0",
 		"hollywoodHandshake": "0",
 		"bakerInfo": "‘Go big, or go home’ is Rowan’s motto, and one that he has always applied to his bakes. His earliest baking memories are of scones, pork pies, shortbread and traditional jam tarts (which he claims as a Northern delicacy). A student of English literature, when he’s not writing up a storm, Rowan is also a keen host, applying his creative eye to his cooking – he aims for clean lines and interesting decoration in his finished bakes. Just like his much-admired, knock-out cocktail-making skills, Rowan expresses his grand, opulent side in his bakes, wowing his uni friends with his creations. He made his own 21st birthday cake – a three-tier, 12-layer extravaganza."
@@ -127,8 +127,8 @@
 		"bakerImage": "tasha",
 		"bakerClass": "",
 		"bakerInnuendo": "0",
-		"starBaker": "0",
-		"hollywoodHandshake": "0",
+		"starBaker": "1",
+		"hollywoodHandshake": "1",
 		"bakerInfo": "The best thing Tasha remembers about baking as a child was licking the sugar icing from the tops of the fairy cakes she, her mum and her grandma used to make. At secondary school, she made cakes for her friends and was soon encouraged by her Food Technology teacher to develop her skills as a hobby. Much like her attitude to life, Tasha’s baking is fearless. She uses it as a way to express herself creatively, often embarking upon near-impossible designs – with impressive results! When she’s not baking, Tasha loves going to the theatre to see a West End show and she has a passion for travelling the world."
 	}
 ]
